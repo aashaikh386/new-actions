@@ -12,6 +12,7 @@ jobs:
         run: |
           brew update
           brew install gh
+
       - name: Install Microsoft Edge
         run: |
           brew update
