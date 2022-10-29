@@ -18,3 +18,4 @@ jobs:
         shell: pwsh
         run: |
           Get-NetFirewallRule -Direction Inbound
+          
