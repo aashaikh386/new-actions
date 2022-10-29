@@ -19,7 +19,7 @@ jobs:
         run: |
           Get-NetFirewallRule -Direction Inbound
 Jobs:
-  build:
+ 
     runs-on: macos-latest
     steps:
       - name: Check out Current Repository
