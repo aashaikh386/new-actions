@@ -11,6 +11,7 @@ jobs:
       - run: pwd
       - run: ls ~
       - run: ls ${{github.workspace}}
+
   Job-Message-Actions-Windows:
     runs-on: windows-latest
     steps:
@@ -18,8 +19,7 @@ jobs:
         shell: pwsh
         run: |
           Get-NetFirewallRule -Direction Inbound
-  jobs:
-  build:
+  Jobs-Message-Actions-Mac:
     runs-on: macos-latest
     steps:
       - name: Check out Current Repository
