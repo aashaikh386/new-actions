@@ -18,8 +18,8 @@ jobs:
         shell: pwsh
         run: |
           Get-NetFirewallRule -Direction Inbound
-Jobs:
- Job-Message-Actions-Mac:
+  
+  Job-Message-Actions-Mac:
     runs-on: macos-latest
     steps:
       - name: Check out Current Repository
