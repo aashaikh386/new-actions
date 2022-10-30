@@ -1,1 +1,1 @@
-# new-actions
+# jarina-action
